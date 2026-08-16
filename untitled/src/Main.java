@@ -1,12 +1,12 @@
 public class Main {
     public static double myPow(double x, int n){
-        double base = x;
         double respuesta = 1;
         for (int i = 1; i<=n; i++){
-            if ( base < -100 || base > 100){
+            if ( x < -100 || x > 100 || n != 0 || x != 0){
                 break;
             }
-            respuesta = respuesta * base;
+            if ( n < 0 )
+            respuesta = respuesta * x;
         }
 
         return respuesta;
