@@ -19,7 +19,7 @@ public static double myPow(double x, int n){
 
 }
 
- void main(){
+void main(){
 
     double result = myPow(2, -2);
 
