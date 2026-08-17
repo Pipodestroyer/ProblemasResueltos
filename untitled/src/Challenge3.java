@@ -12,27 +12,21 @@ public static String shortestPalindrome(String s) {
                 break;
             }
 
-            String temp = listatotal[i];
-            String temp2 = listatotal[largoTotal];
-
-            listatotal[largoTotal] = temp;
-            listatotal[i] = temp2;
-            largoTotal = largoTotal-1;
-
         } else {
 
             if (listatotal.length-1 == i) {
                 break;
             }
 
-            String temp = listatotal[i];
-            String temp2 = listatotal[largoTotal];
-
-            listatotal[largoTotal] = temp;
-            listatotal[i] = temp2;
-            largoTotal = largoTotal-1;
-
         }
+
+        String temp = listatotal[i];
+        String temp2 = listatotal[largoTotal];
+
+        listatotal[largoTotal] = temp;
+        listatotal[i] = temp2;
+        largoTotal = largoTotal-1;
+
     }
 
     return s + String.join("", listatotal);
