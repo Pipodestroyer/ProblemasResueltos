@@ -3,10 +3,7 @@ public static int countDigitOne(int n) {
     int numero = n;
     do {
         for(int i = 0;  i <= String.valueOf(Math.abs(numero)).length()-1; i++){
-            int[] toscan = String.valueOf(numero)
-                        .chars()
-                        .map(c -> c - '0')
-                        .toArray();
+            int[] toscan = String.valueOf(numero).chars().map(c -> c - '0').toArray();
 
             if (i != toscan.length) {
                 if(toscan[i] == 1){
