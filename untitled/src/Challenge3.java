@@ -1,5 +1,6 @@
 public static String shortestPalindrome(String s) {
 
+    s = s.toLowerCase();
     String[] dividido = s.split("(?=.$)");
     String[] listatotal = dividido[0].split("");
     int largoTotal = listatotal.length-1;
@@ -35,7 +36,7 @@ public static String shortestPalindrome(String s) {
 
 void main(){
 
-    String result = shortestPalindrome("abbc");
+    String result = shortestPalindrome("abBc");
 
     IO.println(result);
 
