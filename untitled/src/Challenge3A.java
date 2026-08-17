@@ -41,6 +41,6 @@ public static String shortestPalindrome(String s) {
     return s + String.join("", listafinal);
 }
 void main(){
-    String result = shortestPalindrome("abb");
+    String result = shortestPalindrome("bbbabo");
     IO.println(result);
 }
