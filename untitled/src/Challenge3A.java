@@ -36,7 +36,7 @@ public static String shortestPalindrome(String s) {
     for (int i = 0; i <= listafinal.length - 1; i++) {
         if (listafinal.length % 2 == 0 && listafinal.length / 2 == i) {
             break;
-        } else if (listafinal.length - 1 == i){
+        } else if (largoTotal == i){
             break;
         }
         String temp = listafinal[i];
