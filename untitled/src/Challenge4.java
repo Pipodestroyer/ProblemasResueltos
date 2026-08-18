@@ -16,7 +16,7 @@ public int dividir(int dividend, int divisor) {
             total = total + u;
         }
         for (int i = 0; i < divide; i++) {
-            if (total+i==dividend){
+            if (total+i==Math.abs(dividend)){
                 quotient=u;
             }
         }
@@ -24,7 +24,7 @@ public int dividir(int dividend, int divisor) {
     }
     if ((divisor < 0 && dividend > 0) || (divisor>0 && dividend<0)) {
         return -quotient;
-    } else if (divisor > 0 && dividend >= 0) {
+    } else if ((divisor > 0 && dividend >= 0) || (divisor<0 && dividend <=0)) {
         return quotient;
     } else {
         IO.print("Cannot divide by ");
@@ -33,6 +33,6 @@ public int dividir(int dividend, int divisor) {
 }
 
 void main() {
-    int resultado = dividir(11, 2);
+    int resultado = dividir(15, -4);
     IO.print(resultado);
 }
