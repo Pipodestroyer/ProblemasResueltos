@@ -1,3 +1,9 @@
+/**
+ * Solución a Leetcode problema #214.
+ *
+ * @Pipodestroyer Juan Galindo <juan.galindo@ustavillavo.edu.co>
+ * @MrN0bo Daniel Rodriguez (Code Revision)
+ */
 public static String shortestPalindrome(String s) {
     s = s.toLowerCase();
     String[] letras = s.split("");

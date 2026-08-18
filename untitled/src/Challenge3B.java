@@ -1,3 +1,9 @@
+/**
+ * Solución a Leetcode problema #214 con busqueda de lado mas eficiente.
+ *
+ * @Pipodestroyer Juan Galindo <juan.galindo@ustavillavo.edu.co>
+ * @MrN0bo Daniel Rodriguez <daniel.rodriguezt@ustavillavo.edu.co>
+ */
 public static String shortestPalindrome(String s) {
     s = s.toLowerCase();
     String[] letras = s.split("");
