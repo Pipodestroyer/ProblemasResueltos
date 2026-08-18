@@ -2,7 +2,7 @@
  * Solución a Leetcode problema #233.
  *
  * @Pipodestroyer Juan Galindo <juan.galindo@ustavillavo.edu.co>
- * @MrN0bo Daniel Rodriguez (Code Revision)
+ * @MrN0bo Daniel Rodriguez (Code Review)
  */
 public static int countDigitOne(int n) {
     int contadorfinal = 0;

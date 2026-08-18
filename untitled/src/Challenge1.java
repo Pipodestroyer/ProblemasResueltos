@@ -2,7 +2,7 @@
  * Solución a Leetcode problema #50.
  *
  * @Pipodestroyer Juan Galindo <juan.galindo@ustavillavo.edu.co>
- * @MrN0bo Daniel Rodriguez (Code Revision)
+ * @MrN0bo Daniel Rodriguez (Code Review)
  */
 public static double myPow(double x, int n){
     double respuesta = 1;
