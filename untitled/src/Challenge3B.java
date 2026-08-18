@@ -1,8 +1,9 @@
 /**
- * Solución a Leetcode problema #214 con busqueda de lado mas eficiente.
+ * Leetcode #214: Shortest Palindrome
+ * Problem Link: https://leetcode.com/problems/shortest-palindrome/
  *
- * @Pipodestroyer Juan Galindo <juan.galindo@ustavillavo.edu.co>
- * @MrN0bo Daniel Rodriguez <daniel.rodriguezt@ustavillavo.edu.co>
+ * @Pipodestroyer Juan Galindo (Original implementation and logic)
+ * @MrN0bo Daniel Rodriguez (Original implementation and logic)
  */
 public static String shortestPalindrome(String s) {
     s = s.toLowerCase();

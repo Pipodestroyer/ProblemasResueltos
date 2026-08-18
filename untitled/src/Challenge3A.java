@@ -1,7 +1,8 @@
 /**
- * Solución a Leetcode problema #214.
+ * Leetcode #214: Shortest Palindrome
+ * Problem Link: https://leetcode.com/problems/shortest-palindrome/
  *
- * @Pipodestroyer Juan Galindo <juan.galindo@ustavillavo.edu.co>
+ * @Pipodestroyer Juan Galindo (Original implementation and logic)
  * @MrN0bo Daniel Rodriguez (Code Review)
  */
 public static String shortestPalindrome(String s) {

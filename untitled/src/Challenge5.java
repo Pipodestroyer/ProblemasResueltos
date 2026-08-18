@@ -1,7 +1,8 @@
 /**
- * Solución a Leetcode problema #41.
+ * Leetcode #41: First Missing Positive
+ * Problem Link: https://leetcode.com/problems/first-missing-positive/
  *
- * @MrN0bo Daniel Rodriguez <daniel.rodriguezt@ustavillavo.edu.co>
+ * @MrN0bo Daniel Rodriguez (Original implementation and logic)
  * @Pipodestroyer Juan Galindo (Code Review)
  */
 import java.util.Arrays;

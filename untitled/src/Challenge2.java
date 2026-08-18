@@ -1,7 +1,8 @@
 /**
- * Solución a Leetcode problema #233.
+ * Leetcode #233: Number of Digit One
+ * Problem Link: https://leetcode.com/problems/number-of-digit-one/
  *
- * @Pipodestroyer Juan Galindo <juan.galindo@ustavillavo.edu.co>
+ * @Pipodestroyer Juan Galindo (Original implementation and logic)
  * @MrN0bo Daniel Rodriguez (Code Review)
  */
 public static int countDigitOne(int n) {

@@ -1,7 +1,8 @@
 /**
- * Solución a Leetcode problema #50.
+ * Leetcode #50: Pow(x, n)
+ * Problem Link: https://leetcode.com/problems/powx-n/
  *
- * @Pipodestroyer Juan Galindo <juan.galindo@ustavillavo.edu.co>
+ * @Pipodestroyer Juan Galindo (Original implementation and logic)
  * @MrN0bo Daniel Rodriguez (Code Review)
  */
 public static double myPow(double x, int n){

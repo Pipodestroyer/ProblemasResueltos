@@ -1,7 +1,8 @@
 /**
- * Solución a Leetcode problema #29.
+ * Leetcode #29: Divide Two Integers
+ * Problem Link: https://leetcode.com/problems/divide-two-integers/
  *
- * @MrN0bo Daniel Rodriguez <daniel.rodriguezt@ustavillavo.edu.co>
+ * @MrN0bo Daniel Rodriguez (Original implementation and logic)
  * @Pipodestroyer Juan Galindo (Code Review)
  */
 public int dividir(int dividend, int divisor) {
